@@ -1,0 +1,20 @@
+{
+  "name": "fastify-json-schema-inherit-error",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@fastify/swagger": "^9.4.0",
+    "@fastify/swagger-ui": "^5.2.0",
+    "fastify": "^5.2.0"
+  },
+  "devDependencies": {
+    "@fastify/type-provider-json-schema-to-ts": "^4.0.1",
+    "@types/node": "^22.10.2",
+    "json-schema-to-ts": "^3.1.1",
+    "typescript": "^5.7.2"
+  }
+}
