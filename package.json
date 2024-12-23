@@ -1,0 +1,22 @@
+{
+  "name": "fastify-json-schema-inherit-error",
+  "workspaces": [
+    "services/*"
+  ],
+  "scripts": {
+    "start": "platformatic start",
+    "clean": "rm -fr ./dist",
+    "build": "platformatic compile"
+  },
+  "devDependencies": {
+    "fastify": "^5.0.0",
+    "platformatic": "^2.27.1",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@platformatic/runtime": "^2.27.1"
+  },
+  "engines": {
+    "node": "^18.8.0 || >=20.6.0"
+  }
+}
